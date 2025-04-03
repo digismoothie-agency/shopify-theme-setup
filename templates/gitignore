@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Version control
+.git/
+.husky/
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+
+# npm
+.npmrc
+package-lock.json
+package.json
+
+# Development tools
+.prettierrc.json
+.lintstagedrc
+
+# Logs
+npm-debug.log*

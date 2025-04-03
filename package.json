@@ -1,0 +1,40 @@
+{
+  "name": "@digismoothie-agency/shopify-theme-setup",
+  "version": "1.0.0",
+  "description": "A tool to set up development environment for Shopify themes",
+  "type": "commonjs",
+  "bin": {
+    "shopify-theme-setup": "./bin/setup.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digismoothie-agency/shopify-theme-setup.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "shopify",
+    "theme",
+    "setup",
+    "development"
+  ],
+  "author": "Digismoothie Agency",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digismoothie-agency/shopify-theme-setup/issues"
+  },
+  "homepage": "https://github.com/digismoothie-agency/shopify-theme-setup#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.5",
+    "prettier": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
+  }
+}
