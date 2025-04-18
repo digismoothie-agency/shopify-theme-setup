@@ -15,7 +15,8 @@
     "url": "git+https://github.com/digismoothie-agency/shopify-theme-setup.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "keywords": [
     "shopify",
