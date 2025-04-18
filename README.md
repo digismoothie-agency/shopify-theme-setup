@@ -39,19 +39,32 @@ This tool automatically:
 - `.vscode/extensions.json` - Recommended VS Code extensions
 - `.gitignore` - Standard Git ignore settings
 - `.shopifyignore` - Shopify-specific ignore settings
-- `.lintstagedrc` - Configuration for lint-staged
+- `.lintstagedrc` - Configuration for lint-staged (JavaScript and CSS formatting)
 - Husky pre-commit hooks
 
 ## Requirements
 
 - Node.js 14+
 - Git
+- VS Code with required extensions (see below)
+
+## Required VS Code Extensions
+
+When you open the project in VS Code, you'll be prompted to install:
+
+1. **Prettier - Code formatter** (`esbenp.prettier-vscode`)
+   - For JavaScript and CSS formatting
+
+2. **Shopify Liquid** (`shopify.theme-check-vscode`)
+   - For Liquid files and theme checking
+
+**Important**: Accept the extension installation prompt when it appears.
 
 ## Recommended Workflow
 
 After running this setup:
 
-1. Install the recommended VS Code extensions
+1. Install the recommended VS Code extensions when prompted
 2. Commit code with pre-commit hooks automatically formatting your code
 3. Enjoy consistent formatting across all team members' contributions
 

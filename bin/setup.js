@@ -153,14 +153,6 @@ async function setup() {
     process.exit(1);
   }
 
-  // Update package.json with lint-staged config
-  const updatedPackageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-  updatedPackageJson['lint-staged'] = {
-    "*.{js,json,css,scss,md,liquid,html}": "prettier --write"
-  };
-  fs.writeFileSync(packageJsonPath, JSON.stringify(updatedPackageJson, null, 2));
-  console.log(chalk.green('✓ Added lint-staged configuration to package.json'));
-
   // Verify lint-staged is properly configured
   if (!fs.existsSync(path.join(targetDir, 'node_modules', 'lint-staged'))) {
     console.error(chalk.red('❌ lint-staged installation failed'));

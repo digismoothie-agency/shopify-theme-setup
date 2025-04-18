@@ -1,6 +1,6 @@
 {
   "name": "@digismoothie-agency/shopify-theme-setup",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A tool to set up development environment for Shopify themes",
   "type": "commonjs",
   "bin": {
@@ -18,12 +18,6 @@
     "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
-  "keywords": [
-    "shopify",
-    "theme",
-    "setup",
-    "development"
-  ],
   "author": "Digismoothie Agency",
   "license": "MIT",
   "bugs": {
