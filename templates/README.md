@@ -28,10 +28,10 @@ This repository contains the source code of Shopify theme **[Theme Name]** with 
 shopify theme dev               # Start local dev server
 theme-check                     # Run theme linter
 ```
----
 
 ## Dev guidelines
 - Follow the guidelines in [Guideline - Dev workflows](https://github.com/digismoothie-agency/.github-private/tree/main/guidelines/dev-workflows)
+
 
 ## Deployment
 
