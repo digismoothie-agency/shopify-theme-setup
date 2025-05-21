@@ -30,6 +30,9 @@ theme-check                     # Run theme linter
 ```
 ---
 
+## Dev guidelines
+- Follow the guidelines in [Guideline - Dev workflows](https://github.com/digismoothie-agency/.github-private/tree/main/guidelines/dev-workflows)
+
 ## Deployment
 
 ### Main branch is connected to client's Shopify store as live theme
